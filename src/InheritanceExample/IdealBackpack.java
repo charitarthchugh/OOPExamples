@@ -12,7 +12,7 @@ public class IdealBackpack {
         while(scan.hasNextLine())
         System.out.println(scan.nextLine());
 
-        System.out.println("Lets build an ideal backpack ");
+
 
         /* Bagpack bag=new Bagpack();
         System.out.println(bag);*/
