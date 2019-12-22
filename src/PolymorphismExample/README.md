@@ -1,14 +1,14 @@
 #Polymorphism
-###What is it?
-Encapsulation simply is the idea of limiting access
-###What does it mean for us?
-This allows us to control usage and what variables can or can't be modified
-##Situation
-* We are a savings bank
-* We allow a user to set whatever interest that they want & see a five year projection
-* We also allow them to set any dollar amount for the projection
-* At the same time we have a calculator that only uses a fixed interest(3%) and all the user has to do is enter a dollar value 
-* As a costumer, you have compare and contrast these two to be more logical
+##Special Special Read All About it!!! 
+###A warning has been issued- the Java Police says "Thou shall learn about inheritance **before** learning polymorphism"
+####What is Polymorphism? 
+Polymorphism- Greek for many forms
+Polymorphism simply is the idea of collecting multiple objects with similar properties so that we can work with them together
+###What does it mean for us
+In this case, polymorphism will allow us to put different objects in the same array 
+###Situation
+* This is the classic Animal example-with heavy comments though 
  
-Now to find out, run `Bank.java` & `BankUnlimited.java` (`Tip- also look at Savings.java & SavingsUnlimited.java!`,`Hint:Make sure that you look @ the \\comments!`) 
-
+#Credits 
+Thanks to The Coding Train for explaining this concept really well and making me draw inspiration for this
+https://www.youtube.com/watch?v=qqYOYIVrso0 
