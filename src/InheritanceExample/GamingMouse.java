@@ -1,6 +1,7 @@
 package InheritanceExample;
 /*
-*This example
+*This example shows how to add properties to a mouse
+* Shows how a mouse can be GAMING and for GAMERS
 */
 public class GamingMouse extends Mouse {
     //for that good ol' performance boosting RGB, y'all ☺

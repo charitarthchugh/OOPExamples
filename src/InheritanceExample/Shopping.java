@@ -2,13 +2,12 @@ package InheritanceExample;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
 import java.util.Scanner;
 //A helpful and cheery employee of the store tells you the difference
 public class Shopping {
     public static void main(String[] args) throws FileNotFoundException {
-        //Reads and prints ASCII.txt
-        File a =new File("src/InheritanceExample/ASCII.txt");
+        //Reads and prints Mouse.txt
+        File a =new File("src/InheritanceExample/Mouse.txt");
         Scanner scan=new Scanner(a);
         while(scan.hasNextLine())
         System.out.println(scan.nextLine());
