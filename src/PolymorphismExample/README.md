@@ -10,5 +10,5 @@ In this case, polymorphism will allow us to put different objects in the same ar
 * This is the classic Animal example-with heavy comments though 
  
 #Credits 
-Thanks to The Coding Train for explaining this concept really well and making me draw inspiration for this
+Thanks to The Coding Train for explaining this concept really well and making me draw inspiration for this example
 https://www.youtube.com/watch?v=qqYOYIVrso0 

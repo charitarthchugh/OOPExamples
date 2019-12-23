@@ -1,16 +1,19 @@
 package PolymorphismExample;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
-
-public class Bear {
-    public static void main(String[] args) throws FileNotFoundException {
-        //Reads and prints Mouse.txt
-        File a =new File("src/PolymorphismExample/Animal.txt");
-        Scanner scan=new Scanner(a);
-        while(scan.hasNextLine())
-            System.out.println(scan.nextLine());
-        System.out.println();
+public class Bear extends landMammal {
+    public Bear(){
+        setName("I am a bear");
+    }
+    //A bear Goes Grr...
+    public String growl(){
+        return "Grrrr...!";
+    }
+    public String fish(){
+        return "Fished!";
+    }
+    @Override
+    public String toString() {
+        //use the super keyword to access the properties in landMammal
+        return "Bear "+ super.toString();
     }
 }
