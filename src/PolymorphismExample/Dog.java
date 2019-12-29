@@ -1,23 +1,26 @@
 package PolymorphismExample;
 
 public class Dog extends landMammal {
-    public Dog(){
+    public Dog() {
         setName("I am a dog!");
     }
+
     //Dog says woof
-    public String bark(){
+    public String bark() {
         return "Woof!";
     }
-    public String fetch(){
+
+    public String fetch() {
         return "Fetched!";
     }
-    public String sit(){
+
+    public String sit() {
         return "Sat!";
     }
 
     @Override
     public String toString() {
         //use the super keyword to access the properties in landMammal
-        return "Dog "+ super.toString();
+        return "Dog " + super.toString();
     }
 }

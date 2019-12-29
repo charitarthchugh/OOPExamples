@@ -8,8 +8,8 @@ public class SavingsUnlimited {
     double interestRatePercent;
 
     //method that gets a 5 year projection given dollars and interestRatePercent
-    public double get5YearProjection(){
-        return (dollars*(Math.pow(1+ interestRatePercent,5)));
+    public double get5YearProjection() {
+        return (dollars * (Math.pow(1 + interestRatePercent, 5)));
     }
 
 }

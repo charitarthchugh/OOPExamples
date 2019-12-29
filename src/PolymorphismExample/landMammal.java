@@ -4,21 +4,25 @@ public class landMammal {
     private int eyes;
     private boolean mouth;
     private int feet;
-    private String name="";
-    public landMammal(){
-        eyes=2;
-        mouth=true;
-        feet=4;
-        name="I am a land mammal!";
+    private String name = "";
+
+    public landMammal() {
+        eyes = 2;
+        mouth = true;
+        feet = 4;
+        name = "I am a land mammal!";
     }
-    public String poop(){
+
+    public String poop() {
         //Now tell me, what animal does not poop?
-        return "pooped!";
+        return "Pooped!";
     }
-    public String eat(){
+
+    public String eat() {
         return "Ate!";
     }
-    public String sleep(){
+
+    public String sleep() {
         return "Sleeping!";
     }
 
