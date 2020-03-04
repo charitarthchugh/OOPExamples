@@ -14,7 +14,7 @@ public class Shopping {
             System.out.println(scan.nextLine());
         System.out.println();
         //declare all mouse objects(basically declaring all mice types
-        //I know GAMING is not final(not standard naming scheme), but is is there as a joke ☺
+        //I know GAMING is not final(not standard naming scheme), but is there as a joke ☺
         GamingMouse GAMING = new GamingMouse();
         ErgonomicMouse ErgonomicPlus = new ErgonomicMouse();
         WirelessMouse easyWireless = new WirelessMouse();
